@@ -89,7 +89,7 @@ export default {
         .get(
           'https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=50&q=' +
             this.textSearch +
-            '&type=video&key=AIzaSyCYWUUmEvVkmbe3iiq_UZdR0-rRFMOc3_I'
+            '&type=video&key=AIzaSyBz_s0VGgjwQifFBP6scfn9BNlEaETLV68'
         )
 
         .then((Response) => {

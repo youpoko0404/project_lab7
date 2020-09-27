@@ -28,6 +28,13 @@
         </div>
         <div class="subtitle-1">
           <h3>
+            <font color="grey">
+              Live : {{ this.$route.params.id.snippet.liveBroadcastContent }}
+            </font>
+          </h3>
+        </div>
+        <div class="subtitle-1">
+          <h3>
             <a
               style="text-decoration: none;"
               target="_blank"
